@@ -43,13 +43,4 @@ Pull requests are welcome. Please review CONTRIBUTING.md and SECURITY.md before 
 
 *Important*
 
-Place .lua file in garrysmod/lua/autorun/server
-Don't forget to add your folder names in 
-
-local addonFolders = {
-    "Folder names", "Folder names", "Folder names"
-}
-
-
-After names are in there, open your console in your game panel and copy and paste run_integrity_scan
-It doesn't show up in the in game console.
+Place the .lua script in garrysmod/lua/autorun/server, list your addon folder names in local addonFolders = { "your_folder_1", "your_folder_2" }, then run run_integrity_scan from your server’s control panel console—not the in-game console—to execute the scan.
