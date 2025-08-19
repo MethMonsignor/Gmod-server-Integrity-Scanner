@@ -1,4 +1,4 @@
-EmporiumRP Diagnostic Suite – Contribution Guidelines
+Diagnostic Suite – Contribution Guidelines
 
 Thank you for your interest in contributing to the EmporiumRP audit tools. These scripts are designed to promote ethical server governance, transparent scripting, and collaborative modding culture. Contributions are welcome, provided they align with the following principles:
 
