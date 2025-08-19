@@ -1,4 +1,4 @@
-EmporiumRP Diagnostic Suite – Security & Ethical Use Policy
+Diagnostic Suite – Security & Ethical Use Policy
 
 These scripts are designed for educational and administrative use only. They are not intended for automated bans, public shaming, or unauthorized surveillance.
 
