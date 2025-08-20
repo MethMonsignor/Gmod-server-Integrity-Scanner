@@ -8,7 +8,7 @@ Free to use, modify, and distribute with attribution.
 -- Only run on server
 if not SERVER then return end
 
--- One-time execution guard
+-- One time execution guard
 if _G.__INTEGRITY_SCAN_RAN then return end
 _G.__INTEGRITY_SCAN_RAN = true
 
@@ -202,7 +202,7 @@ local function runIntegrityScan(addonName)
     logToFile("[Scan Complete] All checks concluded for: " .. addonName)
 end
 
--- MANUAL TRIGGER VIA CONSOLE
+-- MANUAL TRIGGER CONSOLE
 concommand.Add("run_integrity_scan", function()
     print("[EmporiumRP] Manual scan triggered via console.")
     logToFile("[EmporiumRP] Manual scan triggered via console.")
@@ -220,4 +220,5 @@ concommand.Add("run_integrity_scan", function()
     logToFile("OK: " .. scanSummary.ok)
     logToFile("Warnings: " .. scanSummary.warning)
     logToFile("Errors: " .. scanSummary.error)
+
     logToFile("[Audit Finished] All addons scanned.\n")
