@@ -1,5 +1,5 @@
 --[[
-Addon Integrity Scanner
+script Integrity Scanner
 Copyright (c) 2025 Meth Monsignor, Emporium Server Owner
 Licensed under the MIT License.
 Free to use, modify, and distribute with attribution.
@@ -222,3 +222,4 @@ concommand.Add("run_integrity_scan", function()
     logToFile("Errors: " .. scanSummary.error)
 
     logToFile("[Audit Finished] All addons scanned.\n")
+
